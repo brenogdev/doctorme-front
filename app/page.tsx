@@ -88,7 +88,7 @@ function Doctor({
 			className="border border-gray-200 p-4 rounded-xl gap-3 inline-flex flex-col w-full max-w-[150px]"
 		>
 			<Image
-				src={`/photos/photo-${doctorId}.jpg`}
+				src={`/photo-${doctorId}.jpg`}
 				alt={name}
 				width={76}
 				height={76}

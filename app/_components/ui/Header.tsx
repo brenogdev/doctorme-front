@@ -1,5 +1,5 @@
-import { IconName } from "@/app/_models/IconName";
-import { Icon } from "./Icon";
+import { IconName } from "@/app/_models/iconName";
+import { Icon } from "./icon";
 import Link from "next/link";
 
 export function Header({

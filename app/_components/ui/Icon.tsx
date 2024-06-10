@@ -1,4 +1,4 @@
-import { IconName } from "@/app/_models/IconName";
+import { IconName } from "@/app/_models/iconName";
 import React, { SVGProps } from "react";
 
 type IconProps = Readonly<{
