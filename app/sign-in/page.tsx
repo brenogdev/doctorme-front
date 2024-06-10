@@ -36,8 +36,8 @@ export default function SignInPage() {
           autoFocus: true,
         }}
       />
-      <Button>Login</Button>
-      <div className="flex flex-col justify-center items-center mt-8">
+      <Button className="my-4">Login</Button>
+      <div className="flex flex-col justify-center items-center">
         <div className="flex h-6 relative w-full items-center justify-center m-5">
           <span className="absolute z-10 m-auto bg-white px-2">Ou</span>
           <div className="border-b border-b-gray-100 w-full absolute text-sm"></div>
@@ -46,7 +46,7 @@ export default function SignInPage() {
           Não está cadastrado?{" "}
           <Link
             href="/sign-up"
-            className="text-green-600 font-semibold underline"
+            className="text-green-600 font-semibold underline hover:opacity-30"
           >
             Crie sua conta
           </Link>
