@@ -1,6 +1,5 @@
+import { IconName } from "@/app/_models/IconName";
 import React, { SVGProps } from "react";
-
-type IconName = "appointment" | "arrow-left" | "eye-off" | "eye-on" | "map";
 
 type IconProps = Readonly<{
   name: IconName;
